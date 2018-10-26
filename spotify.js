@@ -3,8 +3,8 @@ var opn = require('opn');
 var action = "&type="+process.argv[2] +"&offset=1&limit=5&popularity=50-100";
 var value = process.argv[3].split(" ").join("+"); 
 var spotify = new Spotify({
-  id: "3aff523b95f2454189c8330a89228f43",
-  secret: "7174b2783984435a8e2f6c4be6f36761"
+  id: "your id",
+  secret: "your secret"
 });
 console.log(action + " " + value);
 spotify
