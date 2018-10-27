@@ -1,0 +1,28 @@
+{
+  "name": "Liri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spotify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohmez/Liri.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohmez/Liri/issues"
+  },
+  "homepage": "https://github.com/ohmez/Liri#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7",
+    "opn": "^5.4.0",
+    "request": "^2.88.0",
+    "require": "^2.4.20"
+  }
+}
