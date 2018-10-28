@@ -37,27 +37,32 @@ spotify
   .then(function(data) {
       var test = JSON.stringify(data, null, 2);
       var results = JSON.parse(test);
+      debugger;
       var matched;
-        for (x = 0; x <results.tracks.items.length; x++) {
-            if (results.tracks.items[x] == raw) {
-                console.log("match found");
-                console.log(results.tracks.items[x]);
-                matched = true;
+      for (x = 0; x <results.tracks.items.length; x++) {
+        var song = results.tracks.items;        
+            if (song[x].name.toLowerCase() == raw.toLowerCase()) {
+              console.log("perfect match found");
+              console.log("--------------------------");
+              console.log("Track by: " + song[x].artists[0].name);// artists
+              console.log("Song Name: " + song[x].name); // song name
+              console.log("From the Album: " + song[x].album.name);  // album song is from
+              console.log("--------------------------");
+              console.log("enjoy");
+              opn(song[x].external_urls.spotify); // preview link of song
+              matched = true;
                 } 
         } 
       if(!matched) { 
-        console.log("--------------------------");
         console.log("no match found but here's the closest");
         console.log("--------------------------");
-        console.log("Track by: " + results.tracks.items[0].artists[0].name);// artists
-        console.log("Song Name: " + results.tracks.items[0].name); // song name
-        console.log("From the Album: " + results.tracks.items[0].album.name);  // album song is from
+        console.log("Track by: " + song[0].artists[0].name);// artists
+        console.log("Song Name: " + song[0].name); // song name
+        console.log("From the Album: " + song[0].album.name);  // album song is from
         console.log("--------------------------");
         console.log("enjoy");
-        opn(results.tracks.items[0].external_urls.spotify); // preview link of song
+        opn(song[0].external_urls.spotify); // preview link of song
       }
-    // console.log("Here's what I found on spotify");
-    // opn(results.artists.items[0].external_urls.spotify);
   })
   .catch(function(err) {
     console.error('Error occurred: ' + err); 
