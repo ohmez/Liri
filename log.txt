@@ -1,1 +1,274 @@
-This will store all your results from liri commands: Remember to save as; this will be overwritten next time you use meMovie Title: The FountainMovie Title: The Fountain
+
+--------------------------
+searching for: The Fountain
+--------------------------
+Movie Title: The Fountain
+Rotten Tomatoes Rating: 52%
+IMDB Rating: 7.3
+Movie Language: English, Maya
+Movie Plot: As a modern-day scientist, Tommy is struggling with mortality, desperately searching for the medical breakthrough that will save the life of his cancer-stricken wife, Izzi.
+Produced in: Canada, USA
+Staring: Hugh Jackman, Rachel Weisz, Ellen Burstyn, Mark Margolis
+--------------------------
+Year Released: 2006
+--------------------------
+searching for: The Fountain
+--------------------------
+Movie Title: The Fountain
+Rotten Tomatoes Rating: 52%
+Year Released: 2006
+Produced in: Canada, USA
+Movie Language: English, Maya
+IMDB Rating: 7.3
+Movie Plot: As a modern-day scientist, Tommy is struggling with mortality, desperately searching for the medical breakthrough that will save the life of his cancer-stricken wife, Izzi.
+--------------------------
+Staring: Hugh Jackman, Rachel Weisz, Ellen Burstyn, Mark Margolis
+--------------------------
+--------------------------
+searching for: The Fountain
+Staring: Hugh Jackman, Rachel Weisz, Ellen Burstyn, Mark Margolis
+Movie Title: The Fountain
+Year Released: 2006
+Rotten Tomatoes Rating: 52%
+Produced in: Canada, USA
+IMDB Rating: 7.3
+Movie Plot: As a modern-day scientist, Tommy is struggling with mortality, desperately searching for the medical breakthrough that will save the life of his cancer-stricken wife, Izzi.
+Movie Language: English, Maya
+--------------------------
+--------------------------
+--------------------------
+searching for: Maroon5
+Venue: AccorHotels Arena
+Date: 06/11/2019 - Show Starts at 07:00 PM local time.
+Location: Paris, , France
+--------------------------
+newest listed first, scroll up to see future shows
+Result-16:
+Location: Amsterdam, , Netherlands
+Date: 06/10/2019 - Show Starts at 07:00 PM local time.
+--------------------------
+Result-17:
+newest listed first, scroll up to see future shows
+Venue: Ziggo Dome
+Location: Kraków, , Poland
+Date: 06/06/2019 - Show Starts at 07:00 PM local time.
+Venue: Tauron Arena
+--------------------------
+newest listed first, scroll up to see future shows
+Venue: O2 ARENA
+Result-14:
+Date: 06/05/2019 - Show Starts at 07:00 PM local time.
+Location: Prague, , Czech Republic
+Result-15:
+--------------------------
+newest listed first, scroll up to see future shows
+Result-13:
+Venue: Lanxess Arena
+Date: 06/03/2019 - Show Starts at 07:00 PM local time.
+Location: Cologne, , Germany
+newest listed first, scroll up to see future shows
+Venue: Mollenpark
+Result-12:
+--------------------------
+Date: 06/01/2019 - Show Starts at 07:00 PM local time.
+Location: Aalborg, , Denmark
+newest listed first, scroll up to see future shows
+Result-11:
+--------------------------
+Location: Bangkok, , Thailand
+Date: 03/09/2019 - Show Starts at 07:00 PM local time.
+--------------------------
+newest listed first, scroll up to see future shows
+Result-10:
+Venue: CHALLENGER HALL
+Venue: NATIONAL STADIUM
+Date: 03/07/2019 - Show Starts at 07:00 PM local time.
+newest listed first, scroll up to see future shows
+Location: Singapore, , Singapore
+Result-9:
+Location: Manila, , Philippines
+Date: 03/05/2019 - Show Starts at 07:00 PM local time.
+--------------------------
+newest listed first, scroll up to see future shows
+--------------------------
+Result-8:
+Venue: SM Mall Of Asia
+Location: Macau, , Macau
+Date: 03/03/2019 - Show Starts at 07:00 PM local time.
+newest listed first, scroll up to see future shows
+--------------------------
+Venue: TBA
+Venue: TBA
+Date: 03/01/2019 - Show Starts at 07:00 PM local time.
+--------------------------
+Location: Kaohsiung City, , Taiwan
+newest listed first, scroll up to see future shows
+Venue: Gocheok Sky Dome
+Result-6:
+Date: 02/27/2019 - Show Starts at 07:00 PM local time.
+newest listed first, scroll up to see future shows
+--------------------------
+Result-7:
+Location: Seoul, , South Korea
+Venue: Tokyo Dome
+Location: Tokyo, Tokyo, Japan
+Date: 02/25/2019 - Show Starts at 07:00 PM local time.
+newest listed first, scroll up to see future shows
+Result-5:
+--------------------------
+Location: Melbourne, , Australia
+Date: 02/22/2019 - Show Starts at 07:00 PM local time.
+Result-4:
+Venue: Rod Laver Arena
+newest listed first, scroll up to see future shows
+Venue: Qudos Bank Arena
+Result-3:
+Location: Sydney, , Australia
+Date: 02/21/2019 - Show Starts at 07:00 PM local time.
+newest listed first, scroll up to see future shows
+Result-2:
+--------------------------
+Venue: Brisbane Entertainment Centre
+Location: Brisbane, , Australia
+--------------------------
+Date: 02/19/2019 - Show Starts at 07:00 PM local time.
+Result-1:
+newest listed first, scroll up to see future shows
+--------------------------
+Venue: Mandalay Bay Events Center
+Location: Las Vegas, NV, United States
+--------------------------
+Date: 12/31/2018 - Show Starts at 07:00 PM local time.
+newest listed first, scroll up to see future shows
+--------------------------
+--------------------------
+searching for: Maroon5
+Result-17:
+Venue: AccorHotels Arena
+Date: 06/11/2019 - Show Starts at 07:00 PM local time.
+--------------------------
+Location: Paris, , France
+Location: Amsterdam, , Netherlands
+Date: 06/10/2019 - Show Starts at 07:00 PM local time.
+Venue: Ziggo Dome
+--------------------------
+Location: Kraków, , Poland
+Result-16:
+Venue: Tauron Arena
+Date: 06/06/2019 - Show Starts at 07:00 PM local time.
+Result-15:
+--------------------------
+Venue: O2 ARENA
+Location: Prague, , Czech Republic
+Date: 06/05/2019 - Show Starts at 07:00 PM local time.
+Result-13:
+--------------------------
+Location: Cologne, , Germany
+Result-14:
+Venue: Lanxess Arena
+--------------------------
+Date: 06/03/2019 - Show Starts at 07:00 PM local time.
+Location: Aalborg, , Denmark
+Venue: Mollenpark
+Date: 06/01/2019 - Show Starts at 07:00 PM local time.
+Result-11:
+--------------------------
+Location: Bangkok, , Thailand
+Date: 03/09/2019 - Show Starts at 07:00 PM local time.
+Venue: CHALLENGER HALL
+Result-10:
+--------------------------
+Location: Singapore, , Singapore
+Date: 03/07/2019 - Show Starts at 07:00 PM local time.
+--------------------------
+Venue: NATIONAL STADIUM
+Venue: SM Mall Of Asia
+Date: 03/05/2019 - Show Starts at 07:00 PM local time.
+Location: Manila, , Philippines
+--------------------------
+Venue: TBA
+Result-9:
+Result-12:
+Location: Macau, , Macau
+Date: 03/03/2019 - Show Starts at 07:00 PM local time.
+Result-7:
+--------------------------
+Location: Kaohsiung City, , Taiwan
+Date: 03/01/2019 - Show Starts at 07:00 PM local time.
+Venue: TBA
+--------------------------
+Result-8:
+Date: 02/27/2019 - Show Starts at 07:00 PM local time.
+Location: Seoul, , South Korea
+Venue: Gocheok Sky Dome
+--------------------------
+Venue: Tokyo Dome
+Result-6:
+Location: Tokyo, Tokyo, Japan
+Date: 02/25/2019 - Show Starts at 07:00 PM local time.
+Result-4:
+--------------------------
+Location: Melbourne, , Australia
+Date: 02/22/2019 - Show Starts at 07:00 PM local time.
+Result-5:
+Venue: Rod Laver Arena
+Location: Sydney, , Australia
+Result-3:
+--------------------------
+Date: 02/21/2019 - Show Starts at 07:00 PM local time.
+Venue: Qudos Bank Arena
+Location: Brisbane, , Australia
+Venue: Brisbane Entertainment Centre
+Date: 02/19/2019 - Show Starts at 07:00 PM local time.
+Result-2:
+--------------------------
+Date: 12/31/2018 - Show Starts at 07:00 PM local time.
+Venue: Mandalay Bay Events Center
+Location: Las Vegas, NV, United States
+Result-1:
+--------------------------
+newest listed first, scroll up to see future shows
+--------------------------
+--------------------------
+--------------------------
+searching for: Bohemian Rhapsody
+Track by: Queen
+Song Name: Bohemian Rhapsody
+--------------------------
+From the Album: Stone Cold Classics
+--------------------------
+--------------------------
+--------------------------
+searching for: Bohemian Rhapsody
+Track by: Queen
+Song Name: Bohemian Rhapsody
+https://open.spotify.com/track/6l8GvAyoUZwWDgF1e4822w
+From the Album: Stone Cold Classics
+--------------------------
+--------------------------
+--------------------------
+--------------------------
+searching for: The Mighty Ducks
+--------------------------
+Staring: Emilio Estevez, Joss Ackland, Lane Smith, Heidi Kling
+Movie Title: The Mighty Ducks
+Year Released: 1992
+IMDB Rating: 6.5
+Rotten Tomatoes Rating: 18%
+Produced in: USA
+Movie Language: English
+Movie Plot: A self-centered Minnesota lawyer is sentenced to community service coaching a rag tag youth hockey team.
+--------------------------
+--------------------------
+--------------------------
+searching for: Cloud Atlas
+--------------------------
+Movie Title: Cloud Atlas
+Staring: Tom Hanks, Halle Berry, Jim Broadbent, Hugo Weaving
+Year Released: 2012
+IMDB Rating: 7.5
+Rotten Tomatoes Rating: 66%
+Produced in: Germany, USA, Hong Kong, Singapore
+Movie Language: English, Spanish, Ukrainian
+Movie Plot: An exploration of how the actions of individual lives impact one another in the past, present and future, as one soul is shaped from a killer into a hero, and an act of kindness ripples across centuries to inspire a revolution.
+--------------------------

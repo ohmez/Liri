@@ -76,11 +76,21 @@ fs.readFile(file, format,(err,data) => {
 
 };// end getSome function, reads random.txt for commands. 
 
+function log(content) {
+  fs.appendFile('log.txt',"\n"+content, format, (err) => {
+  if(err) throw err;
+});    
+}; // end log value for bonus challenge. 
+
 function start(raw) {
+  var first = "searching for: " +raw;
   console.log("--------------------------");
   console.log("--------------------------");
-  console.log("searching for: " +raw); // initial message
+  console.log(first); // initial message
   console.log("--------------------------");
+  log("--------------------------");
+  log("--------------------------");
+  log(first);
 };// end start function, runs in all cases. 
 
 function getMovied(value) {
@@ -90,50 +100,64 @@ request('http://www.omdbapi.com/?t='+value+'&apikey=trilogy', function (error, r
   else { 
     var results = JSON.parse(body);
     // console.log(results);
-    console.log("Movie Title: "+ results.Title);
-    console.log("Year Released: "+ results.Year);
-    console.log("IMDB Rating: "+results.imdbRating);
-    console.log("Rotten Tomatoes Rating: "+results.Ratings[1].Value);
-    console.log("Produced in: "+results.Country);
-    console.log("Movie Language: "+results.Language);
-    console.log("Movie Plot: "+results.Plot);
-    console.log("Staring: "+results.Actors);
-    console.log("--------------------------");
-    console.log("--------------------------");
     var title = "Movie Title: "+ results.Title;
-    fs.appendFile('log.txt', title, format, (err) => {
-      if(err) throw err;
-    });                                                // starting to try to get the bonus, log results to log.txt.
-    // "Year Released: "+ results.Year
-    // "IMDB Rating: "+results.imdbRating
-    // "Rotten Tomatoes Rating: "+results.Ratings[1].Value
-    // "Produced in: "+results.Country
-    // "Movie Language: "+results.Language
-    // "Movie Plot: "+results.Plot
-    // "Staring: "+results.Actors
-    // "--------------------------"
-    // "--------------------------"
-    
+    var year = "Year Released: "+ results.Year;
+    var rating = "IMDB Rating: "+results.imdbRating;
+    var rotten = "Rotten Tomatoes Rating: "+results.Ratings[1].Value;
+    var produced = "Produced in: "+results.Country;
+    var language = "Movie Language: "+results.Language;
+    var plot = "Movie Plot: "+results.Plot;
+    var starring = "Staring: "+results.Actors;
+    console.log(title);
+    console.log(year);
+    console.log(rating);
+    console.log(rotten);
+    console.log(produced);
+    console.log(language);
+    console.log(plot);
+    console.log(starring);
+    console.log("--------------------------");
+    console.log("--------------------------");
+    log("--------------------------");
+    log(starring);
+    log(title);
+    log(year);
+    log(rating);
+    log(rotten);
+    log(produced);
+    log(language);
+    log(plot);
+    log("--------------------------");    
   }
 })
 };// end getMovied function
 
 function getConcerted(value) {
-  console.log('https://rest.bandsintown.com/artists/' + value + '/events?app_id=codingbootcamp');
-  request('https://rest.bandsintown.com/artists/' + value + '/events?app_id=codingbootcamp', function (error, response, body) {
+    request('https://rest.bandsintown.com/artists/' + value + '/events?app_id=codingbootcamp', function (error, response, body) {
     if(error && response.statusCode !== 200 ) {console.log('error:', error);} // Print the error if one occurred
     if(response.statusCode !== 200) {console.log('statusCode:', response && response.statusCode);} // Print the response status code if a response was received
     else { 
           var results = JSON.parse(body);
-          console.log("I've found " + results.length + " events");
+          var totalE = "I've found " + results.length + " events";
+          console.log(totalE);
           for(x=results.length -1; x>0; x--) {
-            console.log("Result-"+x+":");
-            console.log("Venue: "+results[x].venue.name);
-            console.log("Location: "+results[x].venue.city+", " + results[x].venue.region+", " +results[x].venue.country);
-            console.log("Date: "+moment(results[x].datetime).format("MM/DD/YYYY")+ " - Show Starts at "+moment(results[x].datetime).format("hh:mm A")+" local time.");            
+            var resultNum = "Result-"+x+":";
+            var venue = "Venue: "+results[x].venue.name;
+            var location = "Location: "+results[x].venue.city+", " + results[x].venue.region+", " +results[x].venue.country;
+            var date = "Date: "+moment(results[x].datetime).format("MM/DD/YYYY")+ " - Show Starts at "+moment(results[x].datetime).format("hh:mm A")+" local time.";
+            console.log(resultNum);
+            console.log(venue);
+            console.log(location);
+            console.log(date);            
             console.log("--------------------------");
+            log(resultNum);
+            log(venue);
+            log(location);
+            log(date);            
+            log("--------------------------");
           } 
           console.log("newest listed first, scroll up to see future shows");
+          log("newest listed first, scroll up to see future shows");
           console.log("--------------------------");
           console.log("--------------------------");
       // console.log('body:', body); // Print the HTML for the Google homepage.
@@ -149,20 +173,31 @@ spotify
       var test = JSON.stringify(data, null, 2);
       var results = JSON.parse(test);
       var matched;
+      var song = results.tracks.items;        
       for (x = 0; x <results.tracks.items.length; x++) {
-        var song = results.tracks.items;        
             if (song[x].name.toLowerCase() == raw.toLowerCase()) {
               if(matched) {console.log('multiple matches found specify "song name artist:artistname" in your next search');return};
+              var trackBy = "Track by: " + song[x].artists[0].name;
+              var songName = "Song Name: " + song[x].name;
+              var albumName = "From the Album: " + song[x].album.name;
+              var link = song[x].external_urls.spotify;
               console.log("perfect match found");
               console.log("--------------------------");
-              console.log("Track by: " + song[x].artists[0].name);// artists
-              console.log("Song Name: " + song[x].name); // song name
-              console.log("From the Album: " + song[x].album.name);  // album song is from
+              console.log(trackBy);// artists
+              console.log(songName); // song name
+              console.log(albumName);  // album song is from
               console.log("--------------------------");
               console.log("--------------------------");
               console.log("enjoy");
-              opn(song[x].external_urls.spotify); // preview link of song
+              opn(link); // preview link of song
               matched = true;
+              log(trackBy);
+              log(songName);
+              log(albumName);
+              log(link);
+              log("--------------------------");
+              log("--------------------------");
+
                 } 
         } 
       if(!matched) { 
@@ -174,6 +209,13 @@ spotify
         console.log("--------------------------");
         console.log("enjoy");
         opn(song[0].external_urls.spotify); // preview link of song
+        log("no match found but here's the closest");
+        log("--------------------------");
+        log("Track by: " + song[0].artists[0].name);// artists
+        log("Song Name: " + song[0].name); // song name
+        log("From the Album: " + song[0].album.name);  // album song is from
+        log("--------------------------");
+        log(song[0].external_urls.spotify);
       }
   })
   .catch(function(err) {
