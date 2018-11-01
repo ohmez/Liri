@@ -4,6 +4,7 @@
 1. [How-To](##How-to-use)
 2. [Requirements](##Requirements)
 3. [Challenges](##Challenges)
+4. [Watch-Me](##Example)
 
 ### Overview
 In this app LIRI. You'll be able to search 3 API's: Spotify, BandsInTown, and OMDB.
@@ -53,7 +54,7 @@ I did run into a challenge with appending multiple lines of content
 ```javascript
 fs.appendFile(file,content,format (err)=>{
     if(err) throw err;
-    console.log("file successfully appended)
+    console.log("file successfully appended")
 })
 ```
 So this works great for adding in stored variables or a line or two of text but I foud issues trying to add multiple lines of content:
@@ -64,18 +65,18 @@ content
 content
 ),format (err)=>{
     if(err) throw err;
-    console.log("file successfully appended)
+    console.log("file successfully appended")
 })
 ```
 or even 
 ```javascript
-fs.appendFile(file,{content
+fs.appendFile(file,{content,
 content
 content
 content
 },format (err)=>{
     if(err) throw err;
-    console.log("file successfully appended)
+    console.log("file successfully appended")
 })
 // this was the closest I could come to creating multiple lines of content
 function log(content) {
