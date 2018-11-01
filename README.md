@@ -28,15 +28,16 @@ All commands have a default value if none is provided.
         1b. * this-command,"value for command"
 ## Requirements
 1. In order to use this you'll need your own spotify API key
-    2. this will need to be stored in a .env file
-        2a. 
-         ```js
-        # Spotify API keys
 
-        SPOTIFY_ID=your-spotify-id
-        SPOTIFY_SECRET=your-spotify-secret
+2. this will need to be stored in a .env file
 
-        ```
+2a. 
+ ```js
+# Spotify API keys
+SPOTIFY_ID=your-spotify-id
+SPOTIFY_SECRET=your-spotify-secret
+```
+
 2. You may need to aquire individual api keys for bandsintown API and OMDB API. 
 
 ## Dependencies 
