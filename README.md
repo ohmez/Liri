@@ -1,10 +1,10 @@
 # LIRI Bot 
 
 ## Index
-1. [How-To](##How-to-use)
-2. [Requirements](##Requirements)
-3. [Challenges](##Challenges)
-4. [Watch-Me](##Example)
+1. [How-To](#How-to-use)
+2. [Requirements](#Requirements)
+3. [Challenges](#Challenges)
+4. [Watch-Me](#Example)
 
 ### Overview
 In this app LIRI. You'll be able to search 3 API's: Spotify, BandsInTown, and OMDB.
