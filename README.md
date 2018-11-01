@@ -85,4 +85,5 @@ function log(content) {
 };
 log(a); log(b); log(c); //etc...
 ``` 
-
+## Example
+[Watch-Me](https://drive.google.com/file/d/1yIbmRO8x4s6A03PPot_X4_XlbzSZbGbA/view)
